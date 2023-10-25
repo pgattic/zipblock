@@ -3,21 +3,11 @@
 	"name": "Block .ZIP Domains",
 	"version": "1.0",
 	"description": "Block all .zip top-level domain websites",
-	"permissions": ["webRequest", "webNavigation", "tabs"],
+	"permissions": ["webRequest"],
 	"background": {
 	  "service_worker": "background.js"
 	},
-	"action": {
-	  "default_popup": "popup.html"
-	},
 	"content_security_policy": {
 	  "extension_pages": "script-src 'self'; object-src 'self';"
-	},
-	"content_scripts": [
-	  {
-		"matches": ["*://*.zip/*"],
-		"js": ["content.js"]
-	  }
-	]
-  }
-  
+	}
+}

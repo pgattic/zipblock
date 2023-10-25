@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Block .ZIP Domains",
+	"version": "1.0",
+	"description": "Blocks all .zip top-level domains.",
+  
+	"background": {
+	  "scripts": ["background.js"],
+	  "persistent": true
+	},
+  
+	"permissions": [
+	  "webRequest",
+	  "webRequestBlocking",
+	  "<all_urls>"
+	]
+}

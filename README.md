@@ -1,10 +1,9 @@
-# ZipBlock
+**ZipBlock: Block all ".zip" TLDs with one simple browser extension!**
 
-Block all ".zip" TLDs with one simple browser extension!
+- Uses Chrome manifest_version 2
 
-Uses Chrome manifest_version 2
+- SUPPORT FOR MANIFEST_VERSION 3 IS HERE
 
-***SUPPORT FOR MANIFEST_VERSION 3 IS HERE***
 ## How to Install a Chrome Extension in Developer Mode
 
 1. **Open Google Chrome:** Launch the Google Chrome web browser on your computer if it's not already open.
